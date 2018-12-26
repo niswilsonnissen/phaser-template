@@ -1,15 +1,15 @@
 {
-    "name": "customphaser",
+    "name": "custom-phaser-project",
     "version": "1.0.0",
-    "description": "Custom phaser project template",
-    "private": true,
+    "description": "Custom Phaser 3 project template",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "webpack",
-        "start": "npm run build && webpack-dev-server --port=8000"
+        "start": "npm run build && webpack-dev-server --port=8000 --open"
     },
     "author": "Nis Wilson Nissen",
-    "license": "ISC",
+    "license": "MIT",
+    "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
     "dependencies": {
         "phaser": "^3.15.1"
     },
@@ -19,5 +19,9 @@
         "webpack": "^4.28.2",
         "webpack-cli": "^3.1.2",
         "webpack-dev-server": "^3.1.14"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/niswilsonnissen/phaser-template.git"
     }
 }
