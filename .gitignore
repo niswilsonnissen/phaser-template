@@ -1,0 +1,7 @@
+# Assets in dist
+dist/*.png
+dist/*.jpg
+dist/*.gif
+
+# Node modules
+node_modules
